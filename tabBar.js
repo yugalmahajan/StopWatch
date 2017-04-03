@@ -18,7 +18,7 @@ export default class tabBar extends Component {
         return(
             <ScrollableTabView tabBarActiveTextColor="#2f4f4f" tabBarTextStyle={styles.text} tabBarUnderlineStyle={{backgroundColor:'#2f4f4f'}} >
                 <Main tabLabel="StopWatch"/>
-                <Timer tabLabel="Timer"/>
+                <Timer tabLabel="Calculator"/>
             </ScrollableTabView>
         );
     }
